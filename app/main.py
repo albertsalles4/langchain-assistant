@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.config import SERVER_HOST, SERVER_PORT, DEBUG
+from config import SERVER_HOST, SERVER_PORT, DEBUG
 from telegram_handler import telegram_webhook
 from twilio_handler import twilio_api_reply
 
